@@ -28,3 +28,15 @@
   content: "";
   padding: 0;
 }
+
+input.unanswered {
+  background-color: grey;
+}
+
+input.correct {
+  background-color: green;
+}
+
+input.incorrect {
+  background-color: red;
+}
