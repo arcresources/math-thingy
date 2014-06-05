@@ -3,7 +3,9 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', ['$scope', function($scope) {
+  .controller('BenCtrl', ['$scope', function($scope) {
+  }])
+  .controller('CraigCtrl', ['$scope', function($scope) {
     $scope.variable1 = 2;
     $scope.variable2 = 2;
     $scope.answer = $scope.variable1 + $scope.variable2;
@@ -15,7 +17,7 @@ angular.module('myApp.controllers', [])
       }
     };
   }])
-  .controller('MyCtrl2', ['$scope', function($scope) {
+  .controller('JamesCtrl', ['$scope', function($scope) {
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
@@ -27,4 +29,8 @@ angular.module('myApp.controllers', [])
       var correctAnswer = ($scope.operand1 + $scope.operand2 == $scope.result);
       $scope.answerStatus = correctAnswer ? "correct" : "incorrect";
     };
+  }])
+  .controller('JasonCtrl', ['$scope', function($scope) {
+  }])
+  .controller('KeithCtrl', ['$scope', function($scope) {
   }]);
