@@ -16,3 +16,6 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/keith', {templateUrl: 'partials/keith.html', controller: 'KeithCtrl'});
   $routeProvider.otherwise({redirectTo: '/craig'});
 }]);
+
+angular.module('myApp.controllers', []);
+
