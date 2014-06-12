@@ -3,8 +3,6 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('BenCtrl', ['$scope', function($scope) {
-  }])
   .controller('JamesCtrl', ['$scope', function($scope) {
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
