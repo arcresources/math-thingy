@@ -1,9 +1,5 @@
-'use strict';
-
-/* Controllers */
-
-angular.module('myApp.controllers', [])
-  .controller('JamesCtrl', ['$scope', function($scope) {
+angular.module('myApp.controllers')
+  .controller('JasonCtrl', ['$scope', function($scope) {
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
@@ -15,6 +11,4 @@ angular.module('myApp.controllers', [])
       var correctAnswer = ($scope.operand1 + $scope.operand2 == $scope.result);
       $scope.answerStatus = correctAnswer ? "correct" : "incorrect";
     };
-  }])
-  .controller('KeithCtrl', ['$scope', function($scope) {
   }]);
