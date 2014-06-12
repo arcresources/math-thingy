@@ -30,7 +30,5 @@ angular.module('myApp.controllers', [])
       $scope.answerStatus = correctAnswer ? "correct" : "incorrect";
     };
   }])
-  .controller('JasonCtrl', ['$scope', function($scope) {
-  }])
   .controller('KeithCtrl', ['$scope', function($scope) {
   }]);
