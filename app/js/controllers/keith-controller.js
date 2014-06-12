@@ -2,6 +2,6 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', [])
+angular.module('myApp.controllers')
   .controller('KeithCtrl', ['$scope', function($scope) {
   }]);
