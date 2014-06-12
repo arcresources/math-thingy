@@ -40,3 +40,11 @@ input.correct {
 input.incorrect {
   background-color: red;
 }
+
+.ben-restriction-input {
+  width: 50px;
+}
+
+.ben-restriction-container {
+  border:1px;
+}
