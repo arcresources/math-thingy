@@ -1,10 +1,14 @@
 <div class="row">
   <div class="col-md-6">
-      Question:{{variable1}} + {{variable2}} = <input type="text" ng-model="childAnswer"/>
+      Question: {{variable1}} + {{variable2}} = <input type="text" ng-model="childAnswer"/>
       <a ng-click="validateAnswer()" class="btn btn-default">Answer</a>
       <a ng-click="newQuestion()" class="btn btn-default">New Question</a>
       <div class="validateAnswer">
           {{answerResult}}
+      </div>
+      <a ng-click="displayCorrectAnswer()" ng-show="displayShowCorrectAnswerButton" class="btn btn-default">Show Answer</a>
+      <div class="correctAnswer" ng-show="shouldShowCorrectAnswer">
+          The correct answer was: {{answer}}.
       </div>
   </div>
 </div>
